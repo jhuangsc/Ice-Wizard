@@ -1,0 +1,14 @@
+name=Living Flame
+icon=ABILITYICON_FROZENORB
+cooldown=5000
+type=2
+spread=0
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_LIVING_FLAME
+projectiles=1
+note=Used by the Firelord boss
+description=Sends a living flame towards the target. The flame (radius 10) moves at a speed of 25 and deals 50 damage, hitting up to 100 times. The flame also projects four streams of flame for 3 seconds every 6 seconds. Each flame (radius 7) travels at a speed of 10 and deals 50 damage.

@@ -1,0 +1,5 @@
+name=Pacified
+icon=EFFECTICON_PACIFIED
+duration=750
+vfx=PACIFIED
+description=Cannot deal damage.

@@ -1,0 +1,5 @@
+name=Mana Potion Pickup
+image=ITEM_POTION_MANA
+basespeed=0.0
+radius=10.0
+mass=1.0

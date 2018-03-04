@@ -1,0 +1,17 @@
+name=Flaming Justicar
+image=ENTITY_FLAMINGJUSTICAR
+faction=3
+health=5000.0
+mana=0.0
+shield=100.0
+hpregen=0.04
+mpregen=0.0
+shieldregen=0.1
+charge=0
+basedamage=80.0
+basespeed=3.8
+radius=16.0
+mass=75.0
+ignorescollision=0
+ability=INCINERATE
+ability=BURNINGSHACKLES

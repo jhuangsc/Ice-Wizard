@@ -1,0 +1,10 @@
+name=Stone Pillar
+faction=0
+image=WALL_STONEPILLAR
+health=100000.0
+shield=0.0
+basespeed=0.0
+width=20
+height=20
+mass=200.0
+flag=1

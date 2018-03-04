@@ -1,0 +1,7 @@
+name=Shackled
+icon=EFFECTICON_SHACKLED
+damagepertick=0.05
+duration=2000
+vfx=SHACKLED
+extraeffect=IMMOBILIZED
+description=Immobilized and taking approximately 2.5 damage per second.

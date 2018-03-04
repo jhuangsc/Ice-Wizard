@@ -1,0 +1,9 @@
+You are an Ice Wizard, a master of frosty magic. The forces of the Burning Lands have assembled themselves to destroy you. Will you allow them to melt yo azz, or will you fight back and *extinguish* their hopes and dreams?
+
+The goal of the game is to win each battle. To win each battle, you need to dodge the attacks of your enemies while hitting them with your own attacks. 
+
+When you are hit by your fiery enemies, you become invulnerable and move faster for a short period of time. However, you may also be knocked a short distance away, and you take damage. This damage is first absorbed by your Shield, which regenerates slowly. If your shield is broken, your Health will decline instead. Your Health regenerates very slowly. If you lose all of your Health, you will have melted into a puddle of nothingness... there*snow* way you'll be getting up again. Unless you have at least one life remaining. Then you can restart the level, at the cost of that life.
+
+To help you win each battle instead of simply surviving ad infinitum, you have a number of spells to attack your enemies or to make yourself more powerful. See data\Abilities.doc for an explanation of each available ability.
+
+To aid you in your struggle, there are several graphical aids that allow you to track your current situation. No thermometer, unfortunately. At the bottom left of the display, your Shield (blue), Health (green), Mana (purple) and Charge (yellow) are shown in horizontal bars. These bars shrink as each resource dwindles. You also have up to two rows of icons beside the bars. The bottom row shows the abilities available to you (cheats are hidden!), whether they are ready to use, and whether you have enough resources to use them. The top row shows the effects affecting you, and how much of their duration has passed. You can hover the mouse cursor over the icons or the bars to see some more detailed information about each image.

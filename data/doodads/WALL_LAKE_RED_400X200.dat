@@ -1,0 +1,10 @@
+name=Lake
+faction=4
+image=WALL_LAKE_RED_400X200
+health=1000000.0
+shield=0.0
+basespeed=0.0
+width=400
+height=200
+mass=500000.0
+flag=1

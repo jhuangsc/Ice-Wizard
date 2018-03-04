@@ -1,0 +1,9 @@
+name=Nova
+type=1
+pattern=4
+fade=1
+radius=100.0
+red=127
+green=60
+blue=127
+alpha=100

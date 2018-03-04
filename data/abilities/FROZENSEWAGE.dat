@@ -1,0 +1,14 @@
+name=Frozen Sewage
+icon=ABILITYICON_FROZENORB
+cooldown=5000
+type=2
+spread=60
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FROZENSEWAGE
+projectiles=1
+description=Launches a deadly orb of frozen sewage (radius 20) that travels at a speed of 20 and launches a ring of 12 shards of frozen sewage (radius 4.5) every second in all directions (30 degree spread) as it travels. The orb deals 120 damage and can pass through up to 100 enemies, while the sewage shards (which travel at speed 30) deal 100 damage.
+note=Used by the Dirty Old Man boss

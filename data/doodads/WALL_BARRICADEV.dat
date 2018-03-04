@@ -1,0 +1,11 @@
+name=Ash City Crude Barricade
+faction=3
+image=WALL_BARRICADEV
+health=2000.0
+shield=0.0
+shieldregen=0.0
+basespeed=0.0
+width=25
+height=100
+mass=1000.0
+flag=0

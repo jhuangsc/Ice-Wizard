@@ -1,0 +1,14 @@
+name=Meteor
+icon=ABILITYICON_FIREBALL
+cooldown=10000
+type=2
+spread=0
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_METEOR
+projectiles=1
+note=Used by the Firelord boss
+description=Launches a devastating meteor. The meteor (radius 11) moves at a speed of 6 and deals 1000 damage. The meteor also chases the target.

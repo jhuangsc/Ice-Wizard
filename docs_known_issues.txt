@@ -1,0 +1,70 @@
+KNOWN ISSUES
+
+INTERFACE
+
+GRAPHICS
+
+	DRAWING
+
+		[May 15] HP bars need to be drawn on top of other entities - mainly a problem when there are multiple entities within 100 px of one another. 
+		[Solution: May 16] The method to draw HP bars is now called after all entities have been drawn.
+
+		[May 15] HP bars don't draw on-screen if an entity is too close to the top of the screen.
+		[UNRESOLVED]
+
+		[Jun 10] Tooltip text appears at position (0,0) and in grey, although their background box and bounds are set correctly.
+		[Note] Tooltips are not added to a container before being drawn.
+		[Solution: Jun 11] Ditched Swing components for Tooltips; they now use TextLayout and LineBreakMeasurer to draw text. Still have a minor issue where the method is not respecting the font set to the graphics object. [Update: Jun 12] Font issue resolved.
+
+		[Jun 13] Tooltip text does not always respect \n characters properly, despite a fix being made with the LineBreakMeasurer drawing method.
+		[UNRESOLVED]
+		[Update: Jun 14] This only seems to affect lines that are below a certain length.
+
+	VISUAL EFFECTS
+
+		[May 29] VFX are not being created when they should be.
+		[Update: May 29] The draw and update methods for effects and abilities with attached VFX are being called properly.
+		[Solution: May 29] There were some logic errors in determining when to create VFX. The issue has been resolved.
+
+GAMEPLAY
+
+	INPUT
+
+		
+		[May 2] Acceleration from forces is not applied properly. The directions are a little wonky.
+		[Solution: May 6] Ditched the scalar x-y movement system in favour of a vector-based system, and also ditched force vectors and scalar acceleration in favour of velocity vectors.
+
+		[May 5] Shooting a projectile should create it at the player's position and give it an angle and speed such that it moves directly towards the mouse cursor's position at that time. However, there is a small error in the angle at any distance (a few degrees). And if the mouse position is slightly above the player (within ~30 px) the projectile is aimed downwards instead of in the correct direction.
+		[Update: May 6] Issue still persists after the transition to vector movement. I suspect it is related to the movement method or the angle calculations, but these seem perfectly valid...
+		[Update: May 11] Looking into the cause being the painting of objects at slightly wrong coordinates due to the Img extends JPanel.
+		[Solution: May 11] It was a discrepancy in the MouseEvent x,y coordinates, which did not take into account the 4x30 px difference due to the window pane. Projectiles now fire directly towards the cursor, as expected.
+
+		[May 7] Movement can be slightly erratic under the Velocity Vector system if the movement keys are pressed in rapid succession, for example W-A-S-D to move in a tight circle. 
+		[Update: May 11] Input was not definitely updating quickly enough. I changed it from updating every 'tick' (frame) to 100 times per second. This seems to make it better, but it's not completely resolved.
+		[Solution: May 12] Forced an update of player movement every time a key is pressed or released. This seems to have completely removed the 'lag', even when moving in that rapid, tight circle.
+
+	GAMEPLAY
+
+		[May 9] After attempting to implement ownership of entities (for projectiles and possibly summoned creatures), projectiles no longer spawn.
+		[Solution: May 10] I wasn't calling the draw/move methods for projectiles. Oops. This has been fixed.
+
+		[May 12] Walls have been implemented and collision works properly for projectiles. However, collision does not work for the player - the player just passes through walls and (when there are multiple walls) sometimes gets teleported backwards when moving beyond a certain X or Y boundary that is not marked by a wall. When there are multiple walls, projectiles sometimes teleport as well.
+		[Update: May 14] Collision checks do work but player position updating doesn't quite work properly, there's quite a bit of teleporting even after attempting to implement a fix based on angle from player to wall center. Still needs some work.
+		[Solution: May 15] Solved! Some of the inequalities had the wrong sign. Walls now work almost perfectly - moving from outside the walls is fine, even with multiple walls, however there are some glitches when a wall is spawned on top of an entity, as expected.
+
+		[May 15] Effects have been implemented. However, it seems that some of their effects (ha) aren't being applied correctly (test case with toggled Haste: base speed x2)
+		[Update: May 23] Flinched and Shielded work. Fury has not yet been programmed. Haste does not work yet.
+		[Solution: May 24] Effects now work properly.
+
+		[May 28] Enemy AI currently does not aim properly when attempting to shoot fireballs at the player. They seem to be off by close to 180 degrees.
+		[Solution: May 28] Angle was being calculated correctly, but the fireProjectile method still had a reference to the angle between the entity and the mouse cursor. Enemies now aim correctly.
+
+		[Jun 8] By design, mobs can knock back the player even if the player is flinched or the mob is pacified. However, if the mob is the one who last damaged the player, the mob does not knock back the player while the player is still flinched from the last attack.
+		[Solution: Jun 8] As a remnant of a previous version, the Pacified effect applied a -100% damage dealt modifier. This was also applied to the knockback on touch, which is dependent on damage dealt. Removing the obsolete damage dealt modifier resolved the knockback issue.
+
+		[May 28] There is significant asynchronicity between ingame time and real time. (eg 2.5  ingame is about 5 s real time) I suspect this is mostly due to the processing requirements, I'm not sure how this could be resolved efficiently without creating a complete replacement for the Timer class.
+		[UNRESOLVED]
+		[WORKAROUND: Jun 8] Tweaked the timerdelay and entity speeds so that real time is twice ingame time (2500 ms ingame represents 5s real time). Cooldowns, durations, as well as tooltip displays have been modified for this workaround.
+
+		[Jun 8] Blazing Imps apply knockback to the player before damage. Thus, they can never actually damage the player unless the player walks into them.
+		[SolutioN: Unknown]

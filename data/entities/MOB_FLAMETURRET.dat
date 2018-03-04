@@ -1,0 +1,17 @@
+name=Flame Turret
+image=ENTITY_FLAMETURRET
+faction=3
+health=1000.0
+mana=0.0
+shield=2000.0
+hpregen=0.0
+mpregen=0.0
+shieldregen=0.01
+charge=0
+basedamage=60.0
+basespeed=0.0
+radius=10.0
+mass=50.0
+ignorescollision=0
+ignoresknockback=1
+ability=FLAMEBURST

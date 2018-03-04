@@ -1,0 +1,15 @@
+name=Sear
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=125
+type=2
+spread=90
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FLAME_BURST_INTENSE
+projectiles=1
+note=Used by Pyrotechnics
+description=Rapidly fire fireballs. The fireballs (radius 3) travel at a fast speed of 15 and deal 80 damage.

@@ -1,0 +1,15 @@
+name=Reversal
+alwaysusable=1
+icon=ABILITYICON_REVERSAL
+type=0
+cooldown=15000
+chargemin=100
+chargecost=100
+effectappliedself=EMPOWERED
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Reverse your elemental polarity for 10 seconds. During this time, you cannot be damaged. Instead, attacks heal you for 1% of the damage they would have dealt. Attacks also no longer cause you to flinch.

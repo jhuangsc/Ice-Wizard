@@ -1,0 +1,7 @@
+name=Frozen
+icon=EFFECTICON_FROZEN
+damagepertick=0.5
+duration=2500
+vfx=FROZEN
+extraeffect=STUNNED
+description=Stunned and taking 25 damage per second.

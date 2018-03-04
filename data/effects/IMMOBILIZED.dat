@@ -1,0 +1,4 @@
+name=Immobilized
+icon=EFFECTICON_IMMOBILIZED
+basespeedmultmod=-1.0
+description=You are immobilized and cannot move. Knockback still applies.

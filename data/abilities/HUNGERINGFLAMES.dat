@@ -1,0 +1,15 @@
+name=Hungering Flames
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=200
+type=2
+spread=18
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_HUNGERING_FLAME
+projectiles=10
+note=Used by the Firelord boss
+description=Launches a stream of fireballs. The fireballs (radius 3) travel at a speed of 15 and deal 80 damage.

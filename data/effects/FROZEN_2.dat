@@ -1,0 +1,7 @@
+name=Frozen
+icon=EFFECTICON_FROZEN
+damagepertick=0.1
+duration=1000
+vfx=FROZEN
+extraeffect=IMMOBILIZED
+description=Immobilized and taking 5 damage per second.

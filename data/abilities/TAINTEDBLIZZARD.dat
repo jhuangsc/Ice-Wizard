@@ -1,0 +1,15 @@
+name=Tainted Blizzard
+hidden=1
+icon=ABILITYICON_SNOWFLAKE
+cooldown=200
+type=2
+spread=60
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_VILE_SNOWFLAKE
+projectiles=6
+note=Used by the Dirty Old Man boss
+description=Fire a ring 6 of vile snowflakes (60 degree spread). Each snowflake (radius 2.5) moves at a speed of 20 and deals 60 damage.

@@ -1,0 +1,26 @@
+
+
+PLAYER ABILITIES
+1. POTION_HEAL: Health Potion
+	- Restores 100 health
+	- Free, but should be usable only once every 30s
+	- Can be used while stunned
+2. POTION_MANA: Mana Potion
+	- Restores 100 mana
+	- Free, but should be usable only once every 30s
+	- Can be used while stunned
+3. SNOWFLAKE: Snowflake
+4. ICESHARD: Ice Shard
+5. FROSTNOVA: Frost Nova
+6. FROZENORB: Frozen Orb
+7. REVERSAL: Reversal
+8. HASTE: Haste
+9: FURY: Cold Fury
+10: SHIELD: Frost Shield
+
+PLAYER CHEATS
+1. CHEAT_FROZENORB: Frozen Orb
+2. CHEAT_INFINITY: Infinity
+3. CHEAT_IMMORTALITY: Immortality
+4. CHEAT_BULLETSTORM: Bulletstorm
+5. CHEAT_DIVINESHIELD: Divine Shield

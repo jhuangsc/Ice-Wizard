@@ -1,0 +1,13 @@
+name=Infinity
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_CHEAT_INFINITY
+type=0
+effectappliedself=CHEAT_INFINITY
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Toggled. Grants +2000% mana regeneration.

@@ -1,0 +1,6 @@
+name=Incinerated
+icon=EFFECTICON_BURNING
+damagepertick=0.5
+duration=2000
+vfx=BURNING
+description=Taking approximately 25 damage per second.

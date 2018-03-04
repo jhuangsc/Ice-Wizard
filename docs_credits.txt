@@ -1,0 +1,22 @@
+SPRITES
+
+- Aspect of Chaos
+	Galaxy sprite, by Osmium
+	Source: http://gmc.yoyogames.com/index.php?showtopic=529658
+
+- Frostfire Golem
+	Fire Golem sprite, from Trickster Online
+	Source: http://www.mytrickster.net/wiki/index.php/Monster351
+
+- The Firelord
+	Apophysis-generated fractal, from Rozrr
+	Source: http://rozrr.deviantart.com/art/Fire-Sprite-163051133
+
+- Ashen ground texture
+	From hhh316 on DeviantArt
+	Source: http://hhh316.deviantart.com/art/Seamless-mountain-rock-183926178
+
+MUSIC
+
+- not yet implemented
+

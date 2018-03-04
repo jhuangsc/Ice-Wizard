@@ -1,0 +1,9 @@
+name=Devastation
+type=1
+pattern=4
+fade=1
+radius=1000.0
+red=255
+green=0
+blue=0
+alpha=200

@@ -1,0 +1,14 @@
+name=Flame Wave
+image=PROJECTILE_FIRE
+faction=PROJECTILE
+health=10.0
+mana=0.0
+shield=0.0
+hpregen=0.0
+mpregen=0.0
+shieldregen=0.0
+charge=0
+basedamage=100.0
+basespeed=8.0
+radius=6.0
+mass=4.0

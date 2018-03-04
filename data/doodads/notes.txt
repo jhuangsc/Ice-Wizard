@@ -1,0 +1,7 @@
+width: Integer or decimal in pixels
+
+height: Integer or decimal in pixels
+
+flag: Integer
+	0: None
+	1: Invulnerable

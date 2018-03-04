@@ -1,0 +1,5 @@
+name=Shield Boost
+image=ITEM_BOOST_SHIELD
+basespeed=0.0
+radius=13.0
+mass=1.0

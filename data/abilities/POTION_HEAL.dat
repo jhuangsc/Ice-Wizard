@@ -1,0 +1,14 @@
+name=Healing Potion
+alwaysusable=1
+icon=ABILITYICON_POTION_HP
+type=0
+cooldown=15000
+hpcost=-10000.0
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=HEALED
+vfxdur=1000
+projectile=0
+projectiles=0
+description=Restores 100% health. Warning: May cause addiction.

@@ -1,0 +1,10 @@
+name=Flinched
+duration=1500
+type=0
+pattern=0
+fade=1
+radius=16
+red=255
+green=0
+blue=0
+alpha=127

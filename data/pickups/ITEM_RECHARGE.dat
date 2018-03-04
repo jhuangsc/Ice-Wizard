@@ -1,0 +1,5 @@
+name=Shield Recharge
+image=ITEM_RECHARGE
+basespeed=0.0
+radius=13.0
+mass=1.0

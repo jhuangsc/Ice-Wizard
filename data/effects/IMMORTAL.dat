@@ -1,0 +1,5 @@
+name=Immortal
+icon=EFFECTICON_IMMORTAL
+duration=-1
+vfx=IMMORTAL
+description=You are imbued with infinite frost and cannot die.

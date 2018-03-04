@@ -1,0 +1,15 @@
+name=Meteor
+image=PROJECTILE_METEOR
+faction=PROJECTILE
+ai=1
+health=10.0
+mana=0.0
+shield=0.0
+hpregen=0.0
+mpregen=0.0
+shieldregen=0.0
+charge=0
+basedamage=16000.0
+basespeed=8.0
+radius=11.0
+mass=50.0

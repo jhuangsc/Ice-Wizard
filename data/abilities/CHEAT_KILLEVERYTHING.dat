@@ -1,0 +1,15 @@
+name=Kill Everything
+icon=EFFECTICON_DEAD
+cooldown=0
+type=1
+radius=1000.0
+knockback=2500.0
+damage=20000.0
+effectappliedself=0
+effectappliedenemies=SHACKLED
+effectappliedlocation=0
+vfx=DEVASTATION
+vfxdur=500
+projectile=0
+projectiles=0
+description=Unleash utter devastation! Everything takes massive damage (20000) and is knocked back with a force of 2500. Survivors are Shackled for 4 seconds.

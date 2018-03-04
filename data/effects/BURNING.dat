@@ -1,0 +1,12 @@
+name=Burning
+icon=EFFECTICON_BURNING
+damagepertick=0.1
+duration=2000
+vfx=BURNING
+description=Taking approximately 10 damage per second.
+
+
+10 per 1000 rms
+10 per 500 rms
+
+10/50 per update

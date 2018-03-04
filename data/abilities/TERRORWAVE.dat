@@ -1,0 +1,15 @@
+name=Terror Wave
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=60
+type=2
+spread=45
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_CONSUMING_FLAME
+projectiles=8
+note=Used by the Firelord boss
+description=Launches 8 continuous streams of flame in all directions (45 degree spread). Each stream (radius 7) travels at a speed of 15 and deals 75 damage.

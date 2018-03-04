@@ -1,0 +1,15 @@
+name=Vile Sleet Storm
+hidden=1
+icon=ABILITYICON_FROSTNOVA
+cooldown=350
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_DIRTY_ICE
+projectiles=12
+note=Used by the Dirty Old Man boss
+description=Fire a ring of 12 dirty ice shards (30 degree spread). Each shard (radius 5) moves at a speed of 20 and deals 90 damage.

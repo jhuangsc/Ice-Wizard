@@ -1,0 +1,16 @@
+name=Creeping Firestorm
+hidden=1
+alwaysusable=0
+icon=ABILITYICON_FIREBALL
+cooldown=250
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_CREEPING_FLAME
+projectiles=12
+note=Used by the Aspect of Chaos boss
+description=Fire a ring of 12 fireballs (30 degree spread). Each fireball (radius 3) travels at a speed of 15 and deals 90 damage.

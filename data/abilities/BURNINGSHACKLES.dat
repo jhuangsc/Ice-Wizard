@@ -1,0 +1,14 @@
+name=Burning Shackles
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=3000
+type=2
+spread=0
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_BURNING_SHACKLES
+projectiles=1
+description=Launches a coil of burning shackles. The shackles (radius 3.0) travel at a speed of 40 and deal 10 damage. The shackles also trap their target for 4 seconds, dealing 2.5 damage per second.

@@ -1,0 +1,5 @@
+name=1-Up
+image=ITEM_1UP
+basespeed=0.0
+radius=13.0
+mass=1.0

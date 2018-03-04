@@ -1,0 +1,15 @@
+name=Flame Burst
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=800
+type=2
+spread=90
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FLAME_BURST
+projectiles=4
+note=Used by Flame Turrets
+description=Launches 4 fireballs in all directions (90 degree spread). Each fireball (radius 3) travels at a speed of 10 and deals 40 damage.

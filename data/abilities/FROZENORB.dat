@@ -1,0 +1,15 @@
+name=Frozen Orb
+icon=ABILITYICON_FROZENORB
+cooldown=1500
+chargemin=100
+chargecost=100
+type=2
+spread=60
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FROZENORB
+projectiles=1
+description=Launches a deadly frozen orb (radius 20) that travels at a speed of 30 and launches a ring of 12 shards of ice (radius 6.0) every 0.1 seconds in all directions (30 degree spread) as it travels. The orb deals 30 damage and can pass through up to 1000 enemies, while the ice shards (which travel at speed 50) deal 50 damage.

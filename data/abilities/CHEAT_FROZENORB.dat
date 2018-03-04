@@ -1,0 +1,13 @@
+name=Frozen Orb (Cheat)
+hidden=1
+icon=ABILITYICON_CHEAT_FROZENORB
+type=2
+spread=60
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_CHEAT_FROZENORB
+projectiles=1
+description=Launches a deadly frozen orb (radius 20) that travels at a speed of 25 and launches a ring of 12 shards of ice (radius 9.0) every 0.1 seconds in all directions (30 degree spread) as it travels. The orb deals 150 damage and can pass through up to 10000 enemies, while the ice shards (which travel at speed 30) deal 250 damage.

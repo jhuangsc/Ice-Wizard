@@ -1,0 +1,5 @@
+name=Slowed
+icon=EFFECTICON_SLOWED
+basespeedmultmod=-0.5
+duration=5000
+description=Moving 50% slower.

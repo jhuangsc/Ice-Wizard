@@ -1,0 +1,5 @@
+name=Ammo Pickup
+image=ITEM_AMMO
+basespeed=0.0
+radius=16.0
+mass=1.0

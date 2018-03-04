@@ -1,0 +1,15 @@
+name=Cauterizing Burst
+hidden=1
+icon=EFFECTICON_SHACKLED
+cooldown=3000
+type=2
+spread=15
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_CAUTERIZING_SHACKLES
+projectiles=24
+note=Used by the Firelord boss
+description=Launches a ring of burning shackles. The shackles (radius 3.0) travel at a speed of 20 and deal 20 damage. The shackles also trap their target for 3 seconds, dealing 2.5 damage per second.

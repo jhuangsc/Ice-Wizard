@@ -1,0 +1,15 @@
+name=Ice Shards
+icon=ABILITYICON_ICESHARD
+cooldown=200
+mpcost=5.0
+type=2
+spread=6
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_ICESHARD
+projectiles=3
+allowsextrabullets=1
+description=Fire three ice shards (6 degree spread). Each ice shard (radius 6) moves at a speed of 75 and deals 150 damage.

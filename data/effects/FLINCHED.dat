@@ -1,0 +1,6 @@
+name=Flinched
+icon=EFFECTICON_FLINCHED
+basespeedmultmod=0.25
+duration=1000
+vfx=FLINCHED
+description=Cannot take damage. Moving +25% faster.

@@ -1,0 +1,15 @@
+name=Inferno
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=80
+type=2
+spread=90
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_INFERNO
+projectiles=4
+note=Used by Inferno Turrets
+description=Launches 4 continuous streams of flame in all directions (90 degree spread). Each stream (radius 7) travels at a slow speed of 10 and deals 50 damage.

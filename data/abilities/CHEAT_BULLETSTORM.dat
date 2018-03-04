@@ -1,0 +1,13 @@
+name=Bulletstorm
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_CHEAT_BULLETSTORM
+type=0
+effectappliedself=CHEAT_BULLETSTORM
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Toggled. Unleash bullet hell! Your shots fire 14 extra bullets (if applicable) and you gain a +100% damage bonus.

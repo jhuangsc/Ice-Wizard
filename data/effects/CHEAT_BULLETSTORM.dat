@@ -1,0 +1,7 @@
+name=Bullet Storm
+icon=EFFECTICON_BULLETSTORM
+damagedealtmultmod=1.0
+extrabullets=14
+duration=-1
+vfx=CHEAT_BULLETSTORM
+description=Enraged beyond measure! Firing 14 extra bullets and dealing +100% damage.

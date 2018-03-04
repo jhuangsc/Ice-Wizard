@@ -1,0 +1,10 @@
+name=Sanctum Wall
+faction=0
+image=WALL_STONEWALLH
+health=1000000.0
+shield=0.0
+basespeed=0.0
+width=200
+height=20
+mass=1000.0
+flag=0

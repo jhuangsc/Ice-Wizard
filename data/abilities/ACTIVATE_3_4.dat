@@ -1,0 +1,13 @@
+name=Activate! 3s up / 4s down
+alwaysusable=1
+icon=ABILITYICON_CHEAT_BULLETSTORM
+cooldown=2000
+type=0
+effectappliedself=ACTIVE_3
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Become active for 3 seconds.

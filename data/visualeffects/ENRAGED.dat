@@ -1,0 +1,9 @@
+name=Enraged
+type=0
+pattern=1
+fade=0
+radius=20.0
+red=255
+green=0
+blue=150
+alpha=100

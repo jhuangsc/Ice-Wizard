@@ -1,0 +1,12 @@
+name=Cold Fury
+icon=ABILITYICON_FURY
+cooldown=10000
+type=0
+effectappliedself=ENRAGED
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Unleash the inner beast! Your shots fire 2 extra bullets (if applicable). You gain a +20% damage bonus and a +100% mana regeneration bonus. Your fury ebbs away after 10 seconds.

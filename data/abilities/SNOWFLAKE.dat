@@ -1,0 +1,14 @@
+name=Snowflake
+icon=ABILITYICON_SNOWFLAKE
+cooldown=40
+type=2
+spread=4
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_SNOWFLAKE
+projectiles=1
+allowsextrabullets=1
+description=Fire a continuous stream of snowflakes (radius 3). Each snowflake travels at a speed of 50 and deals 20 damage. If you have an Extra Bullets bonus, the snowflakes have a 4 degree spread.

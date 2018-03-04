@@ -1,0 +1,10 @@
+name=Stone Wall
+faction=0
+image=WALL_STONEWALL2H
+health=100000.0
+shield=0.0
+basespeed=0.0
+width=200
+height=20
+mass=1000.0
+flag=1

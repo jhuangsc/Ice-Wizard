@@ -1,0 +1,11 @@
+name=Dead Tree
+faction=0
+image=DOODAD_TREE_DEAD
+health=10000.0
+shield=0.0
+shieldregen=0.0
+basespeed=0.0
+width=40
+height=40
+mass=1000.0
+flag=1

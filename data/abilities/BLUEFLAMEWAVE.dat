@@ -1,0 +1,14 @@
+name=Blue Flame Wave
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=150
+type=2
+spread=20
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FROSTFIRE_BOLT
+projectiles=5
+description=Launches five blue fireballs. The fireballs (radius 3) travel at a speed of 15 and deal 100 damage.

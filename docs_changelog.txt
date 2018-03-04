@@ -1,0 +1,104 @@
+Warning: May be incomplete, especially if I frequently forget to update.
+
+MAY 05 ISH
+1. Rebuilt the Entity class so that movement is based on two-dimensional Vector objects, rather than scalars in the x and y axis.
+
+MAY 07
+1. Finished modifying player input to use the new Vectors. Movement is now smooth, although there is some inconsistency in dealing with rapid keypresses.
+
+MAY 10
+1. Started investigating the issues with movement discrepancies and angle to mouse. 
+2. Implemented Walls, a new type of object similar to Entities.
+
+MAY 11
+1. Somewhat improved user input by updating it on its own, very short timer, rather than on the FPS timer. Movement commands now update 100+ times per second, up from ~30.
+2. Implemented wall collision. 
+3. Game now reads settings from the settings.ini file. Default settings are used for all fields if there is an error in the format of the file.
+
+MAY 14
+1. Implemented walls. Collision should work perfectly except when a wall is spawned on top of an entity and perhaps when an entity is trapped within a very narrow gap between walls.
+
+MAY 15
+1. Added HP bars for entities and walls. Projectiles generally don't have HP bars.
+2. Implemented Effect and Ability classes. Not 100% working but the foundation is there. 
+3. Starting to add basic monster collision with damage.
+
+MAY 23
+1. Changed Entity class to take stats from .dat files. Some hardcoding is still present, in drawing and AI methods.
+2. Got most existing effects and abilities to work.
+3. Basic combat is now working. Mobs do damage to the player and the player becomes invulnerable for 1.5s after being hit.
+
+MAY 24
+1. Changed Effect class to take stats from .dat files. Some hardcoding is still present in damage/movement checks and input.
+2. Implemented Extra Bullets. Note: Should only be used for the player at this time.
+
+MAY 29
+1. Fully implemented file reading and dynamic abilities.
+2. Fully implemented visual effects. May add image-based VFX later. Planning to add more VFX patterns soon.
+
+MAY 30
+1. Modified timers, cooldowns, durations to be less laggy. Note that some lag may still occur on slower systems - the main effect of this will be that 5 ingame seconds, for example, will not be equivalent to 5 real seconds.
+2. Rebalanced some abilities and stats.
+
+MAY 31
+1. Added UI icons for abilities and effects, including graphics to denote cooldown/duration remaining. Not all icons have been added yet. Planned future functionality: mousing over an icon displays a tooltip
+2. All entities now have an associated image (recursive drawing has been scrapped). Note that not all images are done yet. Future plans: do the same for visual effects.
+
+JUNE 1
+1. Added basic AI for enemies and bosses.
+	Flame Sprite: Chases player. Fires fast fireball periodically.
+	Golem: Fires six continuous streams of fast fireballs and six periodic streams of slow fireballs (30 degree difference) in all directions.
+	Chaos: Fires twelve periodic streams of slow fireballs in all directions and a fast stream of fast fireballs directly at the player.
+	Order: Fires six continuous streams of slow snowflakes and twelve periodic streams of fast ice shards in all directions.
+	Future plans: implement more challenging AI, including phases and monster spawns.
+
+JUNE 2
+1. Implemented abstraction of Entity class, with subclasses Mob, Projectile, Item and Wall.
+
+JUNE 3
+1. Made some improvements to Effects, Abilities and VisualEffects. More possibilities are now open with regards to ability design.
+2. Frost Nova spell implemented. This spell costs 25 mana and affects all enemies within a short distance. Enemies are knocked back, damaged and slowed temporarily. Enemy projectiles are reflected.
+
+JUNE 4
+1. Implemented Frozen Orb and Reversal ultimate spells. Frozen Orb fires a powerful piercing projectile that fires shards of ice in all directions. Reversal causes enemy projectiles to heal you instead of damage you. Both require a full charge to cast.
+2. Made some major changes to game resources for the three bosses currently implemented.
+3. Made improvements to touch damage detection and flinched/invulnerable/etc state handling. Monsters now knock back the player on touch even if the player is flinched. Projectiles pass through harmlessly if the player is flinched. Both will cause knockback and damage otherwise.
+4. AOE effects will now hit if the AOE region even touches a target's radius. Previously, it would only hit if the target's center point was in the AOE radius.
+
+JUNE 5-6
+1. Improved efficiency with entity creation. Entities and Abilities, like Images, are no longer created from files every time they are initialized: instead, they are cloned from a template class. This change has not yet been implemented for Effects and VisualEffects.
+2. Expanded boss AIs and added Blazing Imps, Flame Turrets and Inferno Turrets.
+
+JUNE 8
+1. Tweaked updating routines and entity speeds, ability cooldowns, effect durations to improve efficiency and versatility without interfering with performance. 
+
+JUNE 10
+1. Implemented Tooltips for effects and abilities (mouse over to display).
+2. Added Flaming Justicars.
+
+JUNE 11
+1. Made some fixes to Tooltips. Working on customizing fonts.
+2. Added Fire Golems.
+3. Finished most of the levels. Only two bosses left to make.
+4. Rebalanced most of the levels - some were ridiculously difficult.
+
+JUNE 12
+1. Added SpeedMult setting to slow down/speed up the game without affecting internal balance.
+2. Added Mad Mage boss.
+
+JUNE 13
+1. Added Dialogs and a system for game pausing between levels. Rudimentary Main Menu also created.
+2. Added the Firelord final boss. Be warned - he is VERY tough!
+
+JUNE 14
+1. Fully implemented Items.
+2. Added a story to text dialogs.
+3. Implemented increasing difficulty for playing again after beating the game.
+4. Added Help and Debug dialogs.
+5. Rebalanced most boss fights and some mobs.
+6. Mobs now have a chance to drop items when defeated. The items they can drop depend on what type of mob they are.
+
+2013
+
+APRIL 29
+1. Changed on-death resetting so that projectiles are cleared from the map when the player is revived.

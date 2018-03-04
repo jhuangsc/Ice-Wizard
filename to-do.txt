@@ -1,0 +1,41 @@
+UI
+- GUI class to handle displaying
+- UI class (containing GUI) to handle responses to input
+- UIElement object
+- Target portrait: show the name and stats of the last thing you hit
+- Should also handle user input based on Events sent from main
+- Main menu! Should be able to change most of the settings from there too
+  - Needs a graphic that is 800x600 but looks good at higher res (no stretching)
+- Tutorial!
+- Better level screen! Maybe even scorekeeping?
+- Detailed and dynamic tooltips
+
+Gameplay
+- make Frostfire Golem more challenging
+- give Mad Mage some new attacks
+- figure out why Flame Sprites aggro from so far
+- Fire Elemental: has Flame Wave attack
+- Incinerator: Vortex affix a la D3
+- collision for mobs so they don't stack up (Gary's module?)
+- projectiles travel a limited distance
+- Commands! particularly Move To, Patrol, etc
+- passive Effects, maybe even a trait tree
+- make knockback cancel out base movement for its duration
+
+Graphics
+- onHit VFX
+- image-based VFX, maybe even with sprites or GIFs and rotation
+- onDeath VFX
+- redo the icons
+- redo the boss sprites (except the mages)
+
+Efficiency
+- make Effect constructor to copy from another effect instead of reading from file every time
+  - add effects arraylist to GameData
+  - merge GameAbilities to GameData
+- split IWObjects into IWObject > IWMover (> IWBattler, IWProjectile), IWDoodad (> IWItem)
+- move a lot of stuff away from main
+  - move object related stuff to World
+  - move garbage collection to World
+  - move user input handling to UI
+  - clean up level transitions

@@ -1,0 +1,15 @@
+name=Blast Wave
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=40
+type=2
+spread=90
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_CONSUMING_FLAME
+projectiles=4
+note=Used by the Firelord boss
+description=Fire four continuous streams of flame. The flames (radius 7) travel at a speed of 15 and deal 75 damage.

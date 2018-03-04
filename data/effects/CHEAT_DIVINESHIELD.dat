@@ -1,0 +1,8 @@
+name=Divine Shield
+icon=EFFECTICON_DIVINESHIELD
+hpregenmultmod=10.0
+shieldregenmultmod=10.0
+duration=-1
+vfx=CHEAT_DIVINESHIELD
+flag=2
+description=Invulnerable and rapidly regenerating health and shields (+1000%).

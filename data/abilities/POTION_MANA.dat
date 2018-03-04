@@ -1,0 +1,14 @@
+name=Mana Potion
+alwaysusable=1
+icon=ABILITYICON_POTION_MP
+type=0
+cooldown=15000
+mpcost=-10000.0
+effectappliedself=ENERGIZED
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=MPRESTORED
+vfxdur=1000
+projectile=0
+projectiles=0
+description=Restores 100% mana and grants +500% mana regeneration and +100% shield regeneration for 5 seconds. Warning: May cause addiction.

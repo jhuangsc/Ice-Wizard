@@ -1,0 +1,15 @@
+name=Frostfire Stream
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=40
+type=2
+spread=0
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FROSTFIRE_STREAM
+projectiles=1
+note=Used by the Mad Mage boss
+description=Fire a continuous stream of blue flame. The flame (radius 6.5) travels at a speed of 10 and deals 100 damage.

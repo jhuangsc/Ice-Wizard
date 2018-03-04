@@ -1,0 +1,7 @@
+name=Hasted
+icon=EFFECTICON_HASTED
+basespeedmultmod=2.5
+mpcostpertick=0.2
+duration=-1
+vfx=HASTED
+description=Moving +150% faster. Draining 10 mana per second.

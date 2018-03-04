@@ -1,0 +1,5 @@
+name=Stunned
+icon=EFFECTICON_STUNNED
+duration=2500
+extraeffect=IMMOBILIZED
+description=Cannot move or attack. Most abilities are disabled.

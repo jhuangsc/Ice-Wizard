@@ -1,0 +1,9 @@
+name=Hasted
+type=0
+pattern=1
+fade=0
+radius=25.0
+red=200
+green=200
+blue=255
+alpha=80

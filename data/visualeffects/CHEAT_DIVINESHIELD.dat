@@ -1,0 +1,9 @@
+name=Divine Shield
+type=0
+pattern=4
+fade=1
+radius=24.0
+red=255
+green=225
+blue=0
+alpha=50

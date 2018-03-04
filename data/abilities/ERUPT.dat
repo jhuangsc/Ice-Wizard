@@ -1,0 +1,15 @@
+name=Erupt
+icon=ABILITYICON_FROSTNOVA
+cooldown=3000
+type=1
+radius=50.0
+knockback=250.0
+damage=100.0
+effectappliedself=0
+effectappliedenemies=BURNING
+effectappliedlocation=0
+vfx=ERUPT
+vfxdur=1000
+projectile=0
+projectiles=0
+description=Unleash a burst of flames that knocks back enemies and projectiles within a radius of 50 with a force of 250. Enemies also take 100 damage and Burn for 4 seconds, taking 10 damage per second.

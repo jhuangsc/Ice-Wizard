@@ -1,0 +1,8 @@
+name=Active
+icon=ABILITYICON_CHEAT_BULLETSTORM
+duration=1500
+vfx=0
+extraeffect=0
+flag=3
+note=Used by some mobs as a 'delay' mechanism
+description=Special Abilities Activated!

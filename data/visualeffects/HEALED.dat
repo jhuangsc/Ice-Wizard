@@ -1,0 +1,9 @@
+name=Healed
+type=0
+pattern=1
+fade=1
+radius=25.0
+red=255
+green=0
+blue=0
+alpha=100

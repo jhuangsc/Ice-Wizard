@@ -1,0 +1,13 @@
+name=Immortality
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_CHEAT_IMMORTALITY
+type=0
+effectappliedself=IMMORTAL
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Toggled. Grants immortality. While active, you can take damage but you cannot die.

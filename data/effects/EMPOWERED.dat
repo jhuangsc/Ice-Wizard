@@ -1,0 +1,7 @@
+name=Empowered
+icon=EFFECTICON_EMPOWERED
+damagetakenmultmod=-1.01
+duration=5000
+vfx=EMPOWERED
+flag=1
+description=Polarity reversed. Receiving 1% healing from attacks instead of damage.

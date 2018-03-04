@@ -1,0 +1,9 @@
+name=Frozen
+type=0
+pattern=3
+fade=1
+radius=25
+red=200
+green=200
+blue=255
+alpha=180

@@ -1,0 +1,15 @@
+name=Searing Blizzard
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=240
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FROSTFIRE_BOLT
+projectiles=12
+note=Used by the Frostfire Golem boss
+description=Fire a ring of 12 frostfire bolts (30 degree spread) every 0.3 seconds. Each bolt (radius 3) travels at a speed of 20 and deals 80 damage.

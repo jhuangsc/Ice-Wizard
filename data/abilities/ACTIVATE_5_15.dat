@@ -1,0 +1,13 @@
+name=Activate! 5s up / 15s down
+alwaysusable=1
+icon=ABILITYICON_CHEAT_BULLETSTORM
+cooldown=7500
+type=0
+effectappliedself=ACTIVE_5
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Become active for 5 seconds.

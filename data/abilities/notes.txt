@@ -1,0 +1,45 @@
+Fields
+
+	Name: Self-explanatory. Most characters allowed, but to be safe, stick with letters and numbers. 
+
+	Hidden: 0 or 1. Indicates whether the icon for this ability will be displayed in the Ability bar.
+
+	Alwaysusable: 0 or 1. Indicates whether the ability can be used while stunned.
+
+	Icon: String. Full name of the image in IceWizard\art (excluding file extension) that will be used as the 20x20 icon for this ability.
+
+	Cooldown: Integer. Delay in milliseconds before the ability can be used again.
+
+	Mpcost: Self-explanatory. Integer or decimal value allowed. Use a negative value to represent an ability that restores MP.
+
+	Hpcost: Self-explanatory. Integer or decimal value allowed. Use a negative value to represent an ability that heals HP.
+
+	Chargemin: Integer. Minimum charge required to apply a bonus effect.
+
+	Chargecost: Self-explanatory. Integer. Should be 0 for abilities that benefit from charge but do not require it.
+
+	Chargebonus: Integer or decimal. Additive bonus to effects that may benefit from charge. Usually applied to duration.
+
+	Chargemultmod: Decimal. Multiplicative bonus to abilities that may benefit from charge. Usually applied to damage dealt.
+
+	Type: Integer. 
+	0: Applied to self.
+	1: Applied at self. Always AOE.
+	2: Fires projectile.
+
+	Spread: Integer. Should be 0 for type =/= 2. For projectiles, represents the angle in degrees between projectiles fired if multiple projectiles are fired.
+
+	Effectapplied: Self-explanatory. For no effect, use 0. Otherwise, should be the filename (excluding extension) of the relevant effect in data\effects\.
+
+		self: Applied to the owner of the ability
+		enemies: Applied to enemies that are hit by the AOE ability
+		location: Applied to all mobs that enter the region of the sustained AOE
+
+	vfx: Visual effect associated with the ability. For no VFX, use 0. Otherwise, should be the filename (excluding extension) of the relevant effect in data\visualeffects\.
+	Note that VFX for abilities must always be FNF (fire-and-forget). VFX such as auras is tied to effects instead.
+
+	vfxdur: Integer. Duration in milliseconds of the VFX created when the ability is used.
+
+	projectile: Entity (projectile) that is spawned by the ability. For none, use 0. Otherwise, should be the filename (excluding extension) of the relevant entity in data\entities\.
+
+	projectiles: Integer. The number of projectiles that the ability fires.

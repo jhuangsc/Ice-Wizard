@@ -1,0 +1,10 @@
+name=Ash City Stone Wall
+faction=0
+image=WALL_STONEWALLV
+health=100000.0
+shield=0.0
+basespeed=0.0
+width=20
+height=200
+mass=1000.0
+flag=1

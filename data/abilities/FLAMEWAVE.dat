@@ -1,0 +1,13 @@
+name=Flame Wave
+icon=ABILITYICON_FIREBALL
+cooldown=3500
+type=2
+spread=3
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_FLAME_WAVE
+projectiles=20
+description=Unleash a deadly wave of flame. The flames (radius 7) travel at a speed of 8 and deal 100 damage.

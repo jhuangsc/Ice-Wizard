@@ -1,0 +1,5 @@
+name=Mana Boost
+image=ITEM_BOOST_MANA
+basespeed=0.0
+radius=13.0
+mass=1.0

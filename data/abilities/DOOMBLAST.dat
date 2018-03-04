@@ -1,0 +1,14 @@
+name=Doom Blast
+icon=ABILITYICON_FIREBALL
+cooldown=1000
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_UNSTABLE_FLAMESPRITE
+projectiles=12
+note=Used by the Aspect of Chaos boss
+description=Launch 12 unstable flame sprites in all directions (30 degree spread). Each flame sprite (radius 4.5) travels at a slow speed of 2.5, but deals almost 200 damage.

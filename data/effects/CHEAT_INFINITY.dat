@@ -1,0 +1,6 @@
+name=Infinity
+icon=EFFECTICON_INFINITY
+mpregenmultmod=20.0
+duration=-1
+vfx=CHEAT_INFINITY
+description=Rapidly regenerating mana (+2000%).

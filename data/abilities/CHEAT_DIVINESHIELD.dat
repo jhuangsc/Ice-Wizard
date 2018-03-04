@@ -1,0 +1,13 @@
+name=Divine Shield
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_CHEAT_DIVINESHIELD
+type=0
+effectappliedself=CHEAT_DIVINESHIELD
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Toggled. Grants invulnerability and +1000% shield and health regeneration. While invulnerable, you cannot be damaged or knocked back.

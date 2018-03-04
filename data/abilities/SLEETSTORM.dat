@@ -1,0 +1,15 @@
+name=Sleet Storm
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_SNOWFLAKE
+cooldown=50
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_SLEET
+projectiles=12
+description=Fire a ring of 12 ice shards (30 degree spread) every 0.1 seconds. Each ice shard (radius 6) travels at a speed of 50 and deals 50 damage.

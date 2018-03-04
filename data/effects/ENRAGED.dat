@@ -1,0 +1,8 @@
+name=Enraged
+icon=EFFECTICON_ENRAGED
+damagedealtmultmod=0.2
+mpregenmultmod=1.0
+extrabullets=2
+duration=5000
+vfx=ENRAGED
+description=Enraged! Firing two extra bullets, dealing +20% additional damage and regenerating mana +100% faster.

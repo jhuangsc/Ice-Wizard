@@ -1,0 +1,9 @@
+name=Frost Shield
+type=0
+pattern=4
+fade=1
+radius=24.0
+red=200
+green=200
+blue=255
+alpha=80

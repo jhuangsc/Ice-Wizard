@@ -1,0 +1,15 @@
+name=Burning Shackles
+image=PROJECTILE_BURNINGSHACKLES
+faction=PROJECTILE
+health=10.0
+mana=0.0
+shield=0.0
+hpregen=0.0
+mpregen=0.0
+shieldregen=0.0
+charge=0
+basedamage=10.0
+basespeed=40.0
+onhit=SHACKLED
+radius=3.0
+mass=10.0

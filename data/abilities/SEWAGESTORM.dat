@@ -1,0 +1,15 @@
+name=Sewage Storm
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_ICESHARD
+cooldown=500
+type=2
+spread=30
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_SEWAGESHARD
+projectiles=12
+description=Fire a ring of 12 frozen sewage shards (30 degree spread) every second. Each shard (radius 4.5) travels at a speed of 20 and deals 100 damage.

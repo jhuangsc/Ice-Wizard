@@ -1,0 +1,16 @@
+name=Chilling Firestorm
+hidden=1
+alwaysusable=1
+icon=ABILITYICON_FIREBALL
+cooldown=500
+type=2
+spread=15
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_BLUE_FLAME
+projectiles=24
+note=Used by the Mad Mage boss
+description=Fire a ring of 12 fireballs (30 degree spread). Each fireball (radius 3.5) travels at a speed of 8 and deals 100 damage.

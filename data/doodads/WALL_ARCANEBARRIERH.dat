@@ -1,0 +1,11 @@
+name=Arcane Barrier
+faction=2
+image=WALL_ARCANEBARRIERH
+health=1.0
+shield=80000.0
+shieldregen=1.0
+basespeed=0.0
+width=200
+height=20
+mass=1000.0
+flag=0

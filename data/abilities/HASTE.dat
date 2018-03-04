@@ -1,0 +1,12 @@
+name=Haste
+alwaysusable=1
+icon=ABILITYICON_HASTE
+type=0
+effectappliedself=HASTED
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=0
+projectiles=0
+description=Toggled. While active, you gain a +150% movement speed bonus. Drains 10 mana per second.

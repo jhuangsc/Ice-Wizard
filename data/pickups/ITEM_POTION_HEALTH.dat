@@ -1,0 +1,5 @@
+name=Health Potion Pickup
+image=ITEM_POTION_HEALTH
+basespeed=0.0
+radius=10.0
+mass=1.0

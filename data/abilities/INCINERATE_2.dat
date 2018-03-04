@@ -1,0 +1,15 @@
+name=Incinerate
+hidden=1
+icon=ABILITYICON_FIREBALL
+cooldown=150
+type=2
+spread=45
+effectappliedself=0
+effectappliedenemies=0
+effectappliedlocation=0
+vfx=0
+vfxdur=0
+projectile=PROJECTILE_INCINERATING_BLAST_2
+projectiles=8
+note=Used by the Firelord boss
+description=Launches a ring of eight fireballs. The fireballs (radius 3.5) travel at a speed of 25 and deal 100 damage.

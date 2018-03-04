@@ -1,0 +1,25 @@
+Fields
+
+	name - String. Self-explanatory. No actual purpose, just for documentation purposes.
+
+	duration - Integer. How long is the effect visible for? Use 0 for a sustained 'aura' effect - also for buffs that have a duration. Remove this field entirely if the VFX is associated with an effect, or with an ability that has a vfxdur value.
+
+	type - Integer.
+	0: Aura, drawn around the effect's owner.
+	1: Zone/Burst, drawn around a specific location.
+
+	fade - Integer. 
+	0: Effect is fully visible for entire duration.
+	1: Effect fades to transparency.
+
+	pattern - Integer.
+	0: Plain filled circle.
+	1: Plain filled square.
+	2: Plain square.
+
+	radius - Integer or decimal.
+
+	red - Integer, 0-255.
+	green - Integer, 0-255.
+	blue - Integer, 0-255.
+	alpha - Integer, 0-255.

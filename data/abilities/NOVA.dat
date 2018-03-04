@@ -1,0 +1,15 @@
+name=Nova
+icon=ABILITYICON_FROSTNOVA
+cooldown=5000
+type=1
+radius=100.0
+knockback=250.0
+damage=100.0
+effectappliedself=0
+effectappliedenemies=FROZEN_2
+effectappliedlocation=0
+vfx=NOVA
+vfxdur=1000
+projectile=0
+projectiles=0
+description=Unleash a burst of cold flames that knocks back enemies and projectiles within a radius of 50 with a force of 250. Enemies also take 100 damage and are Frozen for 2 seconds.

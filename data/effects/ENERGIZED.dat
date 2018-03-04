@@ -1,0 +1,7 @@
+name=Energized
+icon=EFFECTICON_ENERGIZED
+mpregenmultmod=5.0
+shieldregenmultmod=1.0
+duration=2500
+vfx=ENERGIZED
+description=Rapidly regenerating mana (+500%) and shields (+100%).

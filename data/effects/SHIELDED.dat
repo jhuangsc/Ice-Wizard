@@ -1,0 +1,6 @@
+name=Frost Shield
+icon=EFFECTICON_SHIELDED
+duration=2500
+vfx=FROSTSHIELD
+flag=2
+description=Invulnerable.

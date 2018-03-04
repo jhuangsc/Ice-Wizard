@@ -1,0 +1,4 @@
+name=Dead
+icon=EFFECTICON_DEAD
+duration=-1
+description=You have melted.

@@ -1,0 +1,6 @@
+name=Well-Supplied
+icon=EFFECTICON_ENRAGED
+extrabullets=4
+duration=15000
+vfx=WELLSUPPLIED
+description=Firing four extra bullets due to a surplus in snowflake and ice supply as a result of poor weather.

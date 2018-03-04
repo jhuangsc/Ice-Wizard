@@ -1,0 +1,20 @@
+image=MAP_LEVEL5
+width=800
+height=800
+startx=400
+starty=600
+
+Allied barricades in front of the player
+doodad=WALL_BARRICADE2,220,650
+doodad=WALL_BARRICADE2,320,600
+doodad=WALL_BARRICADE2,480,600
+doodad=WALL_BARRICADE2,580,650
+
+Items behind the player
+item=ITEM_BOOST_MANA,380,680
+item=ITEM_BOOST_SHIELD,420,680
+
+Enemies in front of the barricades
+mob=MOB_FIREGOLEM,300,150
+mob=MOB_FIREGOLEM,400,100
+mob=MOB_FIREGOLEM,500,150
